@@ -43,9 +43,12 @@ for cone in cones:
         0
     )
 
+    def get_distance(cone):
+        return cone["distance"]
+
 #Sorting cones
 
-cones.sort(key=lambda cone: cone["distance"])
+cones.sort(key=get_distance)
 
 #Separate colours
 
