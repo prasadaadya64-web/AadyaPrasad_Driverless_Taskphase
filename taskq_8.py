@@ -81,7 +81,7 @@ with open(blue_file, "w", newline="") as file:
             cone["colour"]
         ])
 
-# STEP 6: Create yellow.csv
+#Create yellow.csv
 
 yellow_file = os.path.join(folder, "yellow.csv")
 
